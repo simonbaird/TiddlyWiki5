@@ -1,0 +1,9 @@
+title: $:/
+
+state/sidebar: no
+
+theme: $:/themes/simonbaird/mptw-classic
+
+config/Toolbar/Text: yes
+
+config/NewJournal/Title: DD-mmm-YYYY hh12:0mmpm

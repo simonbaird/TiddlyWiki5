@@ -1,0 +1,23 @@
+title: $:/core/ui/ViewTemplate/tagginglist
+tags: $:/tags/ViewTemplate
+
+\define lingo-base() $:/language/TiddlerInfo/
+
+<div class="mptw-tagging-wrapper">
+  <div class="mptw-tagging-list">
+    <!--
+      First show a message.
+      The limit[1] means only show it once.
+    -->
+    <$list filter="[is[current]tagging[]limit[1]]">
+      <span class="mptw-tagging-caption"><<lingo Tagging/Caption>></span>
+    </$list>
+
+    <!--
+      Now show the list of tiddlers.
+    -->
+    <$list filter="[is[current]tagging[]]">
+      <$transclude tiddler="$:/core/ui/ViewTemplate/taggingsublist"/>
+    </$list>
+  </div>
+</div>

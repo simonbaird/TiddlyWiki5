@@ -1,0 +1,48 @@
+title: $:/themes/simonbaird/mptw-classic/styles
+tags: [[$:/tags/Stylesheet]]
+
+.tc-page-controls .tc-btn-text {
+  display: none;
+}
+
+/* avoid the more menu */
+.tc-page-controls .tc-popup .tc-btn-text {
+  display: inline;
+}
+.tc-page-controls .tc-popup button {
+  font-size: 70% !important;
+  display: inline;
+}
+
+.tc-tiddler-controls button {
+  font-size: 60% !important;
+  margin-left: 0.6em;
+  color: #999;
+}
+
+.tc-tiddler-controls .tc-btn-text {
+  font-size: 70%;
+  margin-left: -3px;
+}
+
+.tc-tiddler-controls button:hover {
+  color: #222 !important;
+}
+
+.tc-tiddler-controls button svg {
+  height: 0.7em !important;
+  width: 0.7em !important;
+}
+
+.tc-tiddler-frame {
+  padding-bottom: 30px;
+}
+
+.tc-tiddler-frame {
+  border-radius: 0.5em;
+}
+
+.tc-tab-buttons button {
+  border-top-right-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+}

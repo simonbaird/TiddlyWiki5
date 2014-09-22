@@ -1,0 +1,8 @@
+title: $:/core/ui/ViewTemplate/taggingsublist
+
+<$transclude tiddler="$:/core/ui/ListItemTemplate"/>
+<div class="mptw-tagging-sublist">
+  <$list filter="[is[current]tagging[]]">
+    <$transclude tiddler="$:/core/ui/ViewTemplate/taggingsublist"/>
+  </$list>
+</div>

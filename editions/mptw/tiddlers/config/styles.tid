@@ -1,0 +1,70 @@
+title: $:/themes/mptw/styles
+tags: [[$:/tags/Stylesheet]]
+
+.mptw-tagging-wrapper {
+  font-size: 90%;
+  padding-top: 12px;
+}
+
+.mptw-tagging-wrapper .mptw-tagging-title {
+  color: <<color very-muted-foreground>>;
+  font-size: 90%;
+  opacity: 0.6;
+}
+
+.mptw-tagging-wrapper .mptw-tagging-sublist {
+  margin-left:1em;
+}
+
+.mptw-tagging-wrapper .mptw-tagging-empty {
+  color: <<color very-muted-foreground>>;
+  font-size: 80%;
+  opacity: 0.4;
+}
+.mptw-tagging-wrapper .mptw-tagging-caption {
+  font-size: 90%;
+  opacity: 0.4;
+}
+.mptw-tagging-wrapper .mptw-tagging-caption:after {
+  content:':';
+}
+
+.tc-tag-label a.tc-tiddlylink {
+  color:<<colour tag-foreground>>;
+  text-shadow: none !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+}
+
+/*
+  Circular tagging will cause a recursive transclusion error.
+  Tone it down a bit visually. It's normally white on bright red.
+  Also add a bullet point so it looks like it fits in. (See below).
+*/
+.mptw-tagging-wrapper .tc-error {
+  background-color: <<color background>>;
+  color: <<color very-muted-foreground>>;
+  opacity: 0.4;
+  font-style: italic;
+}
+
+.mptw-tagging-list .tc-error:before,
+.mptw-tagging-list .tc-menu-list-item:before {
+  content: '\2022';
+  padding-right: 0.25em;
+  font-style: normal;
+}
+
+.mptw-tagging-list .tc-error:before {
+  /* fudge some extra space so it lines up for some reason or another */
+  padding-right: 0.51em;
+}
+
+.mptw-tagging-list .tc-error,
+.mptw-tagging-list .tc-menu-list-item {
+  margin-left: 0.5em;
+}
+
+.mptw-tagging-list .tc-error {
+  font-size:inherit;
+}

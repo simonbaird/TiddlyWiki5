@@ -1,0 +1,8 @@
+title: $:/core/ui/TagTemplate
+
+\define tag-styles()
+background-color:$(backgroundColor)$;
+\end
+
+<$set name="backgroundColor" value={{!!color}}>
+<span class="tc-tag-label" style=<<tag-styles>>><$link to={{!!title}}><$view field="title"/></$link>

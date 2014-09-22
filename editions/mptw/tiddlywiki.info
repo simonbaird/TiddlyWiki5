@@ -1,0 +1,17 @@
+{
+	"plugins": [
+	],
+	"themes": [
+		"simonbaird/mptw-classic",
+		"tiddlywiki/vanilla"
+	],
+	"languages": [
+		"en-US",
+		"en-GB",
+		"de-AT",
+		"de-DE",
+		"fr-FR",
+		"zh-Hans",
+		"zh-Hant"
+	]
+}

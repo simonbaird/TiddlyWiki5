@@ -1,0 +1,10 @@
+{
+	"title": "$:/themes/simonbaird/mptw-classic",
+	"name": "MPTW Classic",
+	"author": "Simon Baird",
+	"version": "0.0.0",
+	"core-version": ">=5.0.0",
+	"plugin-type": "theme",
+	"description": "A theme for MPTW 5",
+	"dependents": ["$:/themes/tiddlywiki/vanilla"]
+}

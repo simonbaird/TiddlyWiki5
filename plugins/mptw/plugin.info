@@ -1,0 +1,6 @@
+{
+	"title": "$:/plugins/mptw/taggly",
+	"description": "Use tagging to structure your information",
+	"author": "Simon Baird",
+	"core-version": ">=5.0.0"
+}
